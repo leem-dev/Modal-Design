@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Learning Modal</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
+    <meta http-equiv="X-UA-Compatible" content="ie=edge"/>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <section id="container">
+      <div class="show-button">
+        <button class="show-page shadow">Open New</button>
+        <button class="show-page shadow">Open New</button>
+      </div>
+      <div class="page hidden shadow">
+        <button class="exit-page">&times;</button>
+        <div class="page-folder">
+          <div class="username container">
+            <p>Username:</p>
+            <input type="text" placeholder="type here" class="user shadow" />
+          </div>
+          <div class="password container">
+            <p>Password:</p>
+            <input
+              type="password"
+              placeholder="type here"
+              class="pass shadow"
+            />
+          </div>
+          <p class="invalid"></p>
+          <div class="button container">
+            <button class="log submit">Submit</button>
+            <button class="log reset">Reset</button>
+            
+
+            <div class="submit-page hidden shadow">
+              <div class="submit-folder">
+                <p class="show-submit"></p>
+              </div>
+              <div class="ok-button">
+                <button class="log ok shadow">OK</button>
+              </div>
+            </div>
+            <div class="hidden"></div>
+          </div>  
+            
+          </div>
+          
+        </div>
+      </div>
+
+      <div class="overlay hidden"></div>
+    </section>
+    <script src="script.js"></script>
+  </body>
+</html>
+
+
+<!-- created by sA 
+              04/28/2023-->
