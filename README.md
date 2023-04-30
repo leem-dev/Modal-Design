@@ -6,7 +6,9 @@ Test the following..
 - successful
     - username GREATER THAN 1 AND password GREATER THAN 1
     - OK closes the page
-- close (X)
+- (X)
+    - it RESET the page
+    - CLOSES the page
 - anywhere outside of the container closes the page
 
 To add..
