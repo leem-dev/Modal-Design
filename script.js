@@ -14,11 +14,6 @@ const getSubmitPage = document.querySelector(".submit-page");
 const getShowSubmit = document.querySelector(".show-submit");
 const okBtn = document.querySelector(".ok");
 
-const closePage = function () {
-  getPage.classList.add("hidden");
-  getOverlay.classList.add("hidden");
-};
-
 const openPage = function () {
   getPage.classList.remove("hidden");
   getOverlay.classList.remove("hidden");
@@ -28,6 +23,12 @@ const resetBtn = function () {
   getUser.value = "";
   getPass.value = "";
   document.querySelector(".invalid").textContent = "";
+};
+
+const closePage = function () {
+  getPage.classList.add("hidden");
+  getOverlay.classList.add("hidden");
+  resetBtn()
 };
 
 const checkLength = function () {
